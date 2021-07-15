@@ -16,7 +16,7 @@ void susel::myslenie() {
 			response(rand(ok, niewiem, jestem glodna, mam okres, lubie placki, arin jest kox, ok mozemy, kiedy dott, to co kiedy skonczysz milatapa))
 			break;
 		case przypomnialam_sobie_o_tym_ze_jestem_glodna:
-			reponse(choc na mcdonalda)
+			reponse("choc na mcdonalda")
 			break;
 
 	//THATS ALL BRUH
@@ -32,6 +32,10 @@ void susel::granie() {
 
 void susel::strach() {
 	initalize_spierdalanie();
+}
+
+void susel::mozg() {
+	// no need
 }
 
 void susel::smiech() {
